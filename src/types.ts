@@ -148,3 +148,7 @@ export type FolderName =
   | 'upscale_models'
   | 'custom_nodes'
   | 'hypernetworks';
+
+export interface ComfyUIClientOptions {
+  secure: boolean;
+}
